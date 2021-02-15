@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.1" orientation="orthogonal" renderorder="right-down" width="100" height="18" tilewidth="32" tileheight="32" nextobjectid="148">
+ <properties>
+  <property name="background" value="poziom1.png"/>
+ </properties>
+ <tileset firstgid="1" source="tileset.tsx"/>
+ <layer name="CollisionLayer" width="100" height="18">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2X0QqAMAhFV///0dFbyJjuZsPGOeBTm6j3ZtQaAAAAAOzC4QQAwJ9gj+VQbY5f11KlT9gfz2uV3rvKRGa0coajejI0xRPx3u9z5yMs5+B5xrdPvev9k63aDZletVrM6pGBmtvW5YWdmTLHns5Rr6p9eOejeza6k3u5IzGrh+1P8cHM7KI+fquHkl+tZRQXMA2fLCAcAAA=
+  </data>
+ </layer>
+ <objectgroup name="ObjectLayer" width="50" height="25">
+  <object  name="Objective" type="Objective" x="546" y="477" width="32" height="32"/>
+  <object  name="Objective" type="Objective" x="641" y="384" width="32" height="32"/>
+  <object  name="Objective" type="Objective" x="736" y="289" width="32" height="32"/>
+  <object  name="Objective" type="Objective" x="801" y="286" width="32" height="32"/>
+  <object  name="Enemy" type="Enemy" x="1053" y="477" width="32" height="32"/>
+  <object  name="Enemy" type="Enemy" x="1191" y="157" width="32" height="32"/>
+  <object  name="Objective" type="Objective" x="1025" y="161" width="32" height="32"/>
+  <object  name="Objective" type="Objective" x="1153" y="158" width="32" height="32"/>
+  <object  name="Objective" type="Objective" x="1216" y="351" width="32" height="32"/>
+  <object  name="Enemy" type="Enemy" x="1407" y="253" width="32" height="32"/>
+  <object  name="Objective" type="Objective" x="1505" y="352" width="32" height="32"/>
+  <object  name="Objective" type="Objective" x="1343" y="481" width="32" height="32"/>
+  <object  name="Objective" type="Objective" x="1791" y="384" width="32" height="32"/>
+  <object  name="Objective" type="Objective" x="1664" y="448" width="32" height="32"/>
+  <object  name="Objective" type="Objective" x="1920" y="288" width="32" height="32"/>
+  <object  name="Objective" type="Objective" x="2113" y="480" width="32" height="32"/>
+  <object  name="Enemy" type="Enemy" x="2497" y="478" width="32" height="32"/>
+  <object  name="Objective" type="Objective" x="2561" y="384" width="32" height="32"/>
+  <object  name="Objective" type="Objective" x="2657" y="288" width="32" height="32"/>
+  <object  name="Objective" type="Objective" x="2786" y="414" width="32" height="32"/>
+  <object  name="Objective" type="Objective" x="2720" y="479" width="32" height="32"/>
+  <object  name="Enemy" type="Enemy" x="352" y="444" width="32" height="32"/>
+  <object  name="Enemy" type="Enemy" x="2337" y="413" width="32" height="32"/>
+  <object  name="Enemy" type="Enemy" x="832" y="285" width="32" height="32"/>
+  <object  name="Finish" type="Finish" x="3102" y="477" width="32" height="32"/>
+ </objectgroup>
+</map>

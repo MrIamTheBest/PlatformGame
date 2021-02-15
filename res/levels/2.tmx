@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.1" orientation="orthogonal" renderorder="right-down" width="100" height="18" tilewidth="32" tileheight="32" nextobjectid="59">
+ <tileset firstgid="1" source="tileset.tsx"/>
+ <layer name="CollisionLayer" width="100" height="18">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2XwQqAMAxDB8L8/z+WHQbioVm3lWrMg57E2TYhailCCCGEEPycoIRoIJ+weIZljjtMs7AgTeKY3e0Xsu0PGdw5shsAsOzZIspXuz3b7q+rTSUQ7aGMTOhaePRgz7JRrJlnc78Wvx6oxzcQkSHPWt2bdebOvBqd3fMfl/2NUY2KODPi/YH2h/rxVDQMeqBnWdcve/AWiCAcAAA=
+  </data>
+ </layer>
+ <objectgroup name="ObjectLayer" width="50" height="25">
+  <object  name="Objective" type="Objective" x="289" y="385" width="28" height="29"/>
+  <object  name="Objective" type="Objective" x="544" y="448" width="32" height="31"/>
+  <object  name="Objective" x="704" y="352" width="32" height="29"/>
+  <object  name="Enemy" type="Enemy" x="607" y="188" width="33" height="28"/>
+  <object  name="Objective" type="Objective" x="479" y="187" width="33" height="33"/>
+  <object  name="Enemy" type="Enemy" x="991" y="284" width="32" height="32"/>
+  <object  name="Objective" type="Objective" x="864" y="285" width="35" height="33"/>
+  <object  name="Plant" type="Plant" x="1216" y="447" width="32" height="31"/>
+  <object  name="Plant" type="Plant" x="1441" y="349" width="32" height="33"/>
+  <object  name="Enemy" type="Enemy" x="1759" y="413" width="32" height="32"/>
+  <object  name="Objective" type="Objective" x="1570" y="416" width="31" height="29"/>
+  <object  name="Objective" type="Objective" x="1695" y="415" width="34" height="30"/>
+  <object  name="Objective" type="Objective" x="1919" y="441" width="34" height="37"/>
+  <object  name="Enemy" type="Enemy" x="2335" y="285" width="31" height="31"/>
+  <object  name="Objective" type="Objective" x="2235" y="186" width="37" height="36"/>
+  <object  name="Plant" type="Plant" x="2399" y="123" width="32" height="34"/>
+  <object  name="Objective" type="Objective" x="2528" y="124" width="32" height="34"/>
+  <object  name="Heart" type="Heart" x="2462" y="128" width="33" height="30"/>
+  <object  name="Enemy" type="Enemy" x="2560" y="377" width="31" height="34"/>
+  <object  name="Objective" type="Objective" x="2659" y="444" width="29" height="30"/>
+  <object  name="Plant" type="Plant" x="2782" y="477" width="34" height="32"/>
+  <object  name="Finish" type="Finish" x="3102" y="447" width="31" height="31"/>
+  <object  name="Objective" type="Objective" x="2848" y="477" width="32" height="32"/>
+  <object  name="Objective" type="Objective" x="567" y="191" width="34" height="31"/>
+  <object  name="Objective" type="Objective" x="1273" y="440" width="29" height="33"/>
+  <object  name="Objective" type="Objective" x="1086" y="382" width="31" height="31"/>
+  <object  name="Objective" type="Objective" x="1338" y="410" width="30" height="35"/>
+  <object  name="Objective" type="Objective" x="2240" y="291" width="30" height="28"/>
+  <object  name="Objective" type="Objective" x="2146" y="289" width="32" height="29"/>
+  <object  name="Objective" type="Objective" x="2462" y="380" width="32" height="33"/>
+ </objectgroup>
+</map>

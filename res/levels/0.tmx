@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.1" orientation="orthogonal" renderorder="right-down" width="62" height="18" tilewidth="32" tileheight="32" nextobjectid="75">
+ <properties>
+  <property name="background" value="poziom1.png"/>
+ </properties>
+ <tileset firstgid="1" source="../textures/tilesets/tileset.tsx"/>
+ <tileset firstgid="1" source="tileset.tsx"/>
+ <layer name="CollisionLayer" width="62" height="18">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3SSwoAIAhF0Wz/i46goEmkfRzkPfBmpWilBAAAEI8MwT9kklc9vL2cKzLLv4m6+9yyot3NbOe3c6Le73OvamnO9HMe2d2RGGtp+3nNbYnHuxShe+9RcBEAAA==
+  </data>
+ </layer>
+ <objectgroup name="ObjectLayer" width="50" height="25">
+  <object  name="Objective" type="Objective" x="290" y="353" width="32" height="32"/>
+  <object  name="Objective" type="Objective" x="482" y="319" width="32" height="32"/>
+  <object  name="Objective" type="Objective" x="641" y="257" width="32" height="32"/>
+  <object  name="Objective" type="Objective" x="1057" y="383" width="32" height="32"/>
+  <object  name="Objective" type="Objective" x="1249" y="317" width="32" height="32"/>
+  <object  name="Enemy" type="Enemy" x="767" y="445" width="32" height="32"/>
+  <object  name="Enemy" type="Enemy" x="1628" y="477" width="32" height="32"/>
+  <object  name="Enemy" type="Enemy" x="573" y="317" width="32" height="32"/>
+  <object  name="Finish" type="Finish" x="1886" y="477" width="32" height="32"/>
+ </objectgroup>
+</map>
